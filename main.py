@@ -15,7 +15,7 @@ SNAKE_BLOCK = 10
 SNAKE_SPEED = 15
 
 DIS = pygame.display.set_mode((DIS_WIDTH, DIS_HEIGHT))
-pygame.display.set_caption('PythonProject')
+pygame.display.set_caption('Snake')
 CLOCK = pygame.time.Clock()
 MSG_FONT = pygame.font.SysFont(name=None, size=25)
 SCORE_FONT = pygame.font.SysFont(name=None, size=35)
